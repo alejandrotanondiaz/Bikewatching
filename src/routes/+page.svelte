@@ -54,6 +54,7 @@
             "line-width": 2,
             "line-opacity": 0.4,
         },
+        
         });
         stations = await d3.csv("https://vis-society.github.io/labs/8/data/bluebikes-stations.csv");    
         trips = await d3.csv("https://vis-society.github.io/labs/8/data/bluebikes-traffic-2024-03.csv").then(trips => {
